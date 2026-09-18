@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Table</title>
+</head>
+<body>
+<form fieldset title="Students Form">
+        <Label>Name:</Label><br>
+        <input type="text" maxlength="10" size="50" placeholder="Enter your name" required><br>
+        <label>Password:</label><br>
+        <input type="password" size="50" maxlength="10" placeholder="Enter your password"><br>
+        <label>Email:</label><br>
+        <input type="email" size="50" placeholder="Enter your Email"><br>
+        <label>D.O.B:</label><br>
+        <input type="date" size="50" placeholder="Enter your date of birth"><br><br>
+
+        <label>Gender</label>
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Others
+        <br><br>
+        <Label>Skills</Label>
+        <input type="checkbox">JAVA
+        <input type="checkbox">CSS
+        <input type="checkbox">DBMS
+        <input type="checkbox">HTML<br>
+        <Label>Skills</Label>
+        <select>
+            <option>Select your Skills</option>
+            <option>HTML</option>
+            <option>DBMS</option>
+            <option>CSS</option>
+            <option>JAVA</option>
+            <option>NodeJS</option>
+        </select>
+        <br>OR<br>
+        <select>
+            <optgroup label="Frontend">
+            <option>HTML</option>  
+            <option>CSS</option>
+            <option>NodeJS</option>
+            </optgroup>
+            <optgroup label="Backend">
+            <option>Select your Skills</option>
+            <option>Spring</option>
+            <option>JAVA</option>
+            </optgroup>
+        </select><br><br>
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="+91 (0-9)(9)" required>
+        <label>Resume: </label>
+        <input type="file"><br><br>
+        <label>Comment</label>
+        <textarea rows="10" cols="8"></textarea><br>
+        <input type="submit">
+        <input type="reset">
+        <input type="button" value="Login">
+        OR
+        <button>Signup</button><br>
+</form>
+</body>
+</html>
